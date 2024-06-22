@@ -19,7 +19,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE AppCongig(CONFIG)
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/AppConfig.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/AppConfig.png"/>
 
 *Descrição*:
 
@@ -35,7 +35,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE AauthController(CONTROLLER)
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/AuthController.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/AuthController.png"/>
 
 *Descrição*:
 
@@ -48,7 +48,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE User(MODEL)
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/user.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/user.png"/>
 
 *Descrição*:
 
@@ -60,7 +60,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE UserRepostirory(REPOSITORY)
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/UserRepository.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/UserRepository.png"/>
 
 *Descrição*:
 
@@ -72,7 +72,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE JwtAuthenticationFilter(SECURITY)
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/JwtAuthenticationFilter.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/JwtAuthenticationFilter.png"/>
 
 *Descrição*:
 
@@ -82,7 +82,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE JwtUtil(SECURITY)
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/JwtUtil.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/JwtUtil.png"/>
 
 *Descrição*:
 
@@ -96,7 +96,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE AuthService(SERVICE)
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/AuthService.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/AuthService.png"/>
 
 *Descrição*:
 
@@ -107,7 +107,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE UserService(SERVICE)
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/UserService.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/UserService.png"/>
 
 *Descrição*:
 
@@ -118,7 +118,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE SecretKeyGenerator(TEST)
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/SecretKeyGenerator.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/SecretKeyGenerator.png"/>
 
 *Descrição*:
 
@@ -127,7 +127,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 # DIAGRAMA
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/Diagrama.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/Diagrama.png"/>
 
 ### Explicação Passo a Passo do Diagrama
 
@@ -151,25 +151,25 @@ Para se iniciar a aplicação execute primeiro a classe de *SecretKeyGenerator* 
 
 ## Register.html
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/register-html.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/register-html.png"/>
 
 - *register.html*: Página de registro que permite ao usuário criar uma nova conta.
 - *Formulário de Registro*: Envia uma requisição POST para /register com o nome de usuário, senha e role.
 - *Script JavaScript*: Processa a resposta do servidor e redireciona o usuário para a página de login.
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/Insercao_MongoDB.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/Insercao_MongoDB.png"/>
 
 - Depois de registrar pela aba de /register.html, o usuario é cadastrado no banco de dados
 
 ## Login.html
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/login-html.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/login-html.png"/>
 
 - *login.html*: Página de login que permite ao usuário inserir seu nome de usuário e senha.
 - *Formulário de Login*: Envia uma requisição GET para /login com o nome de usuário e senha.
 - *Script JavaScript*: Processa a resposta do servidor e armazena o token JWT no localStorage.
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/insomnia_login.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/insomnia_login.png"/>
 
 - Usando o Insomnia consigo fazer uma requisição GET diretamente pro meu Banco de Dados e ele recupera o registro adiconado do usuario e seu codigo JWT
 
@@ -182,21 +182,21 @@ Para se iniciar a aplicação execute primeiro a classe de *SecretKeyGenerator* 
 
 ## Home.html/ADMIN
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/Home-Admin.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/Home-Admin.png"/>
 
 - Essa aba da página so é acessada quem tem a role == Admin
 - ele poderá adicionar/remover/visuzalizar campos inputs na Página
 
 ## Home.html/MODERADOR
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/Home-Moderador.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/Home-Moderador.png"/>
 
 - Essa aba da página so é acessada quem tem a role == Moderador
 - ele poderá adicionar/visuzalizar campos inputs na Página
 
 ## Home.html/USER
 
-<img src="https://github.com/Mairondc21/Java_Spring_JWT_Users/blob/main/Java_Spring_JWT_Users/img/Home-Usere.png"/>
+<img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/Home-Usere.png"/>
 
 
 - Essa aba da página so é acessada quem tem a role == User
