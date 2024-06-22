@@ -1,4 +1,4 @@
-# Java_Spring_JWT_Users
+# Security - Sistema de Autenticação e Autorização
 # Introdução ao codigo
 
 Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes tipos de usuarios, dando permissões e restringindo acesso a diferentes funcionalidades. É uma pagina Web (Java SpringBoot) e que faz requisições a um banco de dados (Mongo DB) e utiliza RestApi e TokensJWT. Abaixo explicarei cada funcionalidade das minhas classes.
