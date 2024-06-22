@@ -3,7 +3,7 @@
 
 Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes tipos de usuarios, dando permissões e restringindo acesso a diferentes funcionalidades. É uma pagina Web (Java SpringBoot) e que faz requisições a um banco de dados (Mongo DB) e utiliza RestApi e TokensJWT. Abaixo explicarei cada funcionalidade das minhas classes.
 
-## PASTA APPLICATION
+## PACKAGE APPLICATION
 
 ### CLASSE JwtRestapiApplication(APPLICATION)
 
@@ -15,7 +15,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 - *Anotação @EnableMongoRepositories*: Habilita a detecção de repositórios do MongoDB.
 - *Método main*: Ponto de entrada da aplicação.
 
-## PASTA CONFIG
+## PACKAGE CONFIG
 
 ### CLASSE AppCongig(CONFIG)
 
@@ -31,9 +31,9 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
     - *addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)*: Adiciona o filtro de autenticação JWT antes do filtro de autenticação padrão.
 - *Método passwordEncoder()*: Define o bean para o codificador de senhas BCrypt.
 
-## PASTA CONTROLLER
+## PACKAGE CONTROLLER
 
-### CLASSE AauthController(CONTROLLER)
+### CLASSE AuthController(CONTROLLER)
 
 <img src="https://github.com/RickRamosss/Sistema-de-Autentica-o-e-Autoriza-o/blob/main/Security/img/AuthController.png"/>
 
@@ -44,7 +44,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 - *Método login(@RequestParam String username, @RequestParam String password)*: Autentica o usuário e retorna um token JWT.
 - *Método extractRole(@PathVariable String token)*: Extrai a role do token JWT.
 
-## PASTA MODEL
+## PACKAGE MODEL
 
 ### CLASSE User(MODEL)
 
@@ -56,7 +56,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 - *Atributos*: id, username, password, role - representam os campos do documento de usuário.
 - *Getters e Setters*: Métodos para acessar e modificar os atributos.
 
-## PASTA REPOSITORY
+## PACKAGE REPOSITORY
 
 ### CLASSE UserRepostirory(REPOSITORY)
 
@@ -68,7 +68,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 - *Interface MongoRepository<User, String>*: Extende a interface MongoRepository fornecida pelo Spring Data, especificando a entidade User e o tipo do ID (String).
 - *Método findByUsername(String username)*: Declaração de um método personalizado para encontrar um usuário pelo nome de usuário.
 
-## PASTA SECURITY
+## PACKAGE SECURITY
 
 ### CLASSE JwtAuthenticationFilter(SECURITY)
 
@@ -92,7 +92,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 - *extractUsername(String token)*: Extrai o nome de usuário do token JWT.
 - *extractRole(String token)*: Extrai a role do token JWT.
 
-## PASTA SERVICE
+## PACKAGE SERVICE
 
 ### CLASSE AuthService(SERVICE)
 
@@ -114,7 +114,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 - *@Service*: Marca a classe como um serviço do Spring.
 - *registerUser(User user)*: Registra um novo usuário após verificar se o nome de usuário já existe e codificar a senha.
 
-## PASTA TEST
+## PACKAGE TEST
 
 ### CLASSE SecretKeyGenerator(TEST)
 
